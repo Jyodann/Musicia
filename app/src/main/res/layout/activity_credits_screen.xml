@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreditsScreen">
+
+    <TextView
+        android:id="@+id/credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Credits:"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="31dp"
+        android:text="Various Icons Provided these users from FlatIcon (www.flaticon.com):\n                 - Left Icon by 'ThoseIcons' \n                 - Cancel Icon by 'hadrien'\n                 - Like Icon by 'Smash Icons'\n                 - Info Icon by 'Chris Veigt'\n                 - Loop Icon by 'itim2101'\n                 - Next Track Icon by 'Daniel Bruce'\n                 - Shuffle Icon by 'Gregor Cresnar'\n                 - Magnifying glass Icon by 'Vectors Market'\n\n Special Thanks to: \n                 - Koh Qi Siang (Beta Tester)\n                 - Andrew Tan (PHP Code)\n\n                              © 2019 - Kimiwakirei\n                 Thank you for using Musicia! -Jordy   "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/credits" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="56dp"
+        android:onClick="backToMain"
+        android:text="Go Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

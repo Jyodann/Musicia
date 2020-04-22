@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "87820421001",
+    "firebase_url": "https://musicia-kimiwakirei.firebaseio.com",
+    "project_id": "musicia-kimiwakirei",
+    "storage_bucket": "musicia-kimiwakirei.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87820421001:android:03d80442b48029c3",
+        "android_client_info": {
+          "package_name": "com.kimiwakirei.recyclerview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87820421001-mshojgcnq5898gv5pq2i2qa00bkmk5sc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kimiwakirei.recyclerview",
+            "certificate_hash": "98ce388648575260b8b9fc06c332be0f6f3e21ea"
+          }
+        },
+        {
+          "client_id": "87820421001-vdc2i7po5lcnpld116efh0r13um6oah3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3RIRpgQjQ0UU9OGYfkxUhfpywOuUnrTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87820421001-vdc2i7po5lcnpld116efh0r13um6oah3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

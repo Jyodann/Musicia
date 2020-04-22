@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:colorControlActivated">#512da8</item>
+        <item name="android:colorControlNormal">#00b0ff</item>
+        <item name="android:background">#121212</item>
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="SeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:indeterminateTint">#018AFE</item>
+        <item name="android:progressTint">#018AFE</item>
+        <item name="android:progressBackgroundTint">#214C6F</item>
+
+    </style>
+
+    <style name="ProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:indeterminateTint">#018AFE</item>
+        <item name="android:progressTint">#018AFE</item>
+        <item name="android:progressBackgroundTint">#214C6F</item>
+
+    </style>
+
+
+
+
+</resources>

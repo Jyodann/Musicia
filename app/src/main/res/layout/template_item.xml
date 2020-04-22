@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#303030">
+
+    <RelativeLayout
+        android:id="@+id/songRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:layout_margin="4dp"
+        >
+
+        <ImageView
+            android:id="@+id/albumArtRV"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/songNameRV"
+            android:layout_width="200dp"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@id/albumArtRV"
+            android:text="SongNamePlaceHolder"
+            android:textSize="24sp"
+             />
+
+        <TextView
+            android:id="@+id/artistNameRV"
+            android:singleLine="true"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/songNameRV"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/albumArtRV"
+            android:text="ArtistNamePlaceHolder" />
+
+        <ImageView
+            android:id="@+id/deleteSongRV"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="24dp"
+            android:layout_toEndOf="@id/albumArtRV"
+            android:src="@drawable/clear_icon" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
