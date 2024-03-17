@@ -26,7 +26,7 @@ public class VollyApi {
 
     public void getJsonInformation(String JsonUrl, final Context context){
 
-        String url = "http://kimiwakirei.azurewebsites.net/Test2.php?UrlLink=" + JsonUrl;
+        String url = "https://musicia.jyodann.workers.dev?url=" + JsonUrl;
         JsonObjectRequest jsonObjectRequest = new
                 JsonObjectRequest(Request.Method.GET, url  , null, new Response.Listener<JSONObject>() {
             @Override
